@@ -16,6 +16,6 @@
   -->
 
 <resources>
-    <string name="decorator_wechat_title">WeChat Tweaks</string>
-    <string name="decorator_wechat_description">Expand the conversation notification with recent messages.</string>
+    <string name="decorator_direct_reply_wechat_title">WeChat Direct Reply</string>
+    <string name="decorator_direct_reply_wechat_description">Reply wechat message directly in notification.</string>
 </resources>

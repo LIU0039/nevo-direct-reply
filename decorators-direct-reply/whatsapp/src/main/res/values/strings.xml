@@ -16,6 +16,6 @@
   -->
 
 <resources>
-    <string name="decorator_whatsapp_title">WhatsApp Tweaks</string>
-    <string name="decorator_whatsapp_description">Split the notification to multiple ones for separate conversations.</string>
+    <string name="decorator_direct_reply_whatsapp_title">WhatsApp Direct Reply</string>
+    <string name="decorator_direct_reply_whatsapp_description">Reply whatsapp message directly in notification.</string>
 </resources>

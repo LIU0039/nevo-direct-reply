@@ -1,6 +1,6 @@
 # Nevolution Direct Reply
 
-Decorators for nevolution which aims to provide direct reply experience on Wechat, etc.
+Decorators for nevolution which aims to provide direct reply experience on WeChat, etc.
 
 About
 -------

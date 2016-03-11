@@ -1,7 +1,4 @@
-include ':sdk', ':decorators-misc', ':decorators-callvibrator', ':decorators-bundle', ':decorators-whatsapp', ':decorators-wechat'
+include ':sdk', ':decorators-direct-reply-whatsapp', ':decorators-direct-reply-wechat'
 
-project(':decorators-misc').projectDir = new File(settingsDir, 'decorators-direct-reply/misc')
-project(':decorators-callvibrator').projectDir = new File(settingsDir, 'decorators-direct-reply/callvibrator')
-project(':decorators-bundle').projectDir = new File(settingsDir, 'decorators-direct-reply/bundle')
-project(':decorators-whatsapp').projectDir = new File(settingsDir, 'decorators-direct-reply/whatsapp')
-project(':decorators-wechat').projectDir = new File(settingsDir, 'decorators-direct-reply/wechat')
+project(':decorators-direct-reply-whatsapp').projectDir = new File(settingsDir, 'decorators-direct-reply/whatsapp')
+project(':decorators-direct-reply-wechat').projectDir = new File(settingsDir, 'decorators-direct-reply/wechat')

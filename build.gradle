@@ -21,7 +21,7 @@ subprojects {
     ext.supportLibrariesVersion = '23.1.1'
 }
 
-configure(subprojects.findAll { it.name.startsWith("decorators-") }) {
+configure(subprojects.findAll { it.name.startsWith("decorators-direct-reply") }) {
     apply plugin:'com.android.application'
     android {
         defaultConfig.manifestPlaceholders = [ permission: "com.oasisfeng.nevo.permission.BIND_DECORATOR_SERVICE" ]

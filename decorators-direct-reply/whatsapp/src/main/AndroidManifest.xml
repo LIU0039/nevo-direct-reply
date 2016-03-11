@@ -26,8 +26,8 @@
         <service android:name=".WhatsAppDecorator"
                  android:permission="${permission}"
                  android:process=":service"
-                 android:label="@string/decorator_whatsapp_title"
-                 android:description="@string/decorator_whatsapp_description">
+                 android:label="@string/decorator_direct_reply_whatsapp_title"
+                 android:description="@string/decorator_direct_reply_whatsapp_description">
             <intent-filter android:priority="5">
                 <action android:name="com.oasisfeng.nevo.Decorator" />
             </intent-filter>
